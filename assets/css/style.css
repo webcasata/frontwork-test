@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400;600&display=swap");
+:root {
+  --primary-color: #4643d3;
+  --primary-color-text: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #212121;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #faefe3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  color: #AFAFBD;
+  font-size: 15px;
+  background: none;
+}
+
+.chat-box {
+  width: 100%;
+  max-width: 376px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.chat-box .chat-agent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 11px;
+}
+
+.chat-box .chat-agent .agent-image {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  max-width: 48px;
+  max-height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chat-box .chat-agent .agent-profile {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  padding-left: 16px;
+}
+
+.chat-box .chat-agent span.designation {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.chat-box .chat-agent h2.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.chat-box p span {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: url(../images/hand.png);
+}
+
+.chat-header {
+  padding: 22px 32px;
+  color: var(--primary-color-text);
+  background-color: var(--primary-color);
+}
+
+.search-box {
+  padding: 20px 30px;
+  background-color: var(--primary-color-text);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.search-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search-box input[type="search"] {
+  border: 0;
+  font-size: 15px;
+}
+
+.search-box button {
+  border: 0;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  background: none;
+  color: #5856D7;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
